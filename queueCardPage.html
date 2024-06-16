@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>佇列牌</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>作品集</h1>
+        <nav>
+        <ul>
+            <li><a href="index.html" href="style.css">首頁</a></li>
+            <li><a href="#">自我介紹</a></li>
+            <li><a href="#">聯繫方式</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="top top-queueCard">
+            <h2>佇列牌</h2>
+        </section>
+    </main>
+
+    <section class="gameContent">
+        <div class="grid-container">
+            <img src="images/preview/Queue Card-pre1.png" alt="preview">
+            <img src="images/preview/Queue Card-pre2.png" alt="preview">
+            <img src="images/preview/Queue Card-pre3.png" alt="preview">
+            <img src="images/preview/Queue Card-pre4.png" alt="preview">
+        </div>
+
+        <div class="info">
+            <h3>遊戲介紹</h3>
+            <h4>規則說明</h4>
+            <p>
+                一場遊戲總共有二十張牌，分別為紅色和黑色的數字1~9，以及兩張鬼牌。每位
+                玩家初始血量為30，遊戲結算時如果血量歸零或較少的那一方則判定為輸。左方
+                可以推測對手手牌的可能性。<br><br>
+                
+                遊戲每回合的勝負為比大小，輸的要把牌放在桌子中間，下方朝向輸的那方，獲
+                勝的牌將牌丟回抽牌區，如果是平局則該回合使用的那兩張牌丟回牌堆。<br><br>
+
+                一回合結束後，雙方都要抽牌。如果中間的輸牌區已有五張，將會進入攻擊階段
+                ，攻擊階段輸掉的人抽取第一張自己輸掉的牌並將所有牌往前移動。但是第一張
+                牌如果不是輸家輸掉的牌則會觸發攻擊，攻擊傷害是場上所有輸家輸過的牌以及
+                本回合輸掉的牌數字總和。扣除血量後，將所有輸家輸掉的牌移除，贏家輸的牌
+                則全數返回牌堆。<br><br>
+
+                如果雙方有一人手牌沒辦法湊齊兩張，或某一方的血量歸零，則進入遊戲結算。
+            </p>
+            <h4>對方手牌提示</h4>
+            <p>
+                每回合都會有對手手牌的提示，順序為：
+                紅黑判斷＞大小判斷＞總數判斷＞奇偶判斷＞紅黑判斷＞大小判斷……以此類推<br><br>
+
+                紅黑判斷：對方持有多少紅牌或黑牌
+                大小判斷：對方持有多少大牌和小牌，小牌為1~5，大牌為6~9
+                總數判斷：對方持有的兩張手牌與自己其中一張牌的數字的總和
+                奇偶判斷：對方持有多少機數和偶數牌
+            </p>
+            <h4>鬼牌</h4>
+            <p>
+                鬼牌是唯一能打敗9同時也是唯一會被1擊敗的牌，其餘牌（包括鬼牌自己）都會
+                打成平手。<br><br>
+
+                鬼牌獲勝時，會把輸牌區的所有牌進行傷害總和，不管是自己或對方的輸牌，並
+                且鬼牌分出勝負後，也會移除。輸掉則相反，輸牌區全數加總傷害全部攻擊到自
+                己身上。<br><br>
+
+                鬼牌的傷害為0。<br><br>
+
+                它在提示上也有特殊的規則：
+                紅黑判斷、大小判斷、奇偶判斷：排堆最少的類型則歸類到哪一方，相同則隨機
+                總數判斷：鬼牌算成 0
+            </p>
+
+            <h3>遊戲操作</h3>
+            <li>左鍵:選擇卡牌</li>
+
+            <h3>遊戲連結</h3>
+            <p>密碼:4827</p>
+            <p><a href="https://i7-eivlys.itch.io/queue-card">Itch.io</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright © 2024 Archie. All rights reserved.</p>
+    </footer>
+</body>
+</html>

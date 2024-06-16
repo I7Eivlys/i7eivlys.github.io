@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: rgba(39, 5, 5, 0.75);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+
+h1{
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 0;
+    line-height: 60px;
+}
+
+header li{
+    display: inline;
+    margin-right: 5vw;
+}
+
+header ul{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 60px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+head a:hover{
+    text-decoration: underline;
+}
+
+.top{
+    color: white;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.top h2{
+    font-size: 100px;
+    margin-top: 60px;
+}
+
+.top p{
+    margin: 15px;
+}
+
+.top-homepage{
+    background-image: url("images/homepage-topImage.png");
+}
+
+.top-queueCard{
+    background-image: url("images/Queue Card-topImage.png");
+}
+
+.top-afterimageOfTheFuture{
+    background-image: url("images/Afterimage of The Future-topImage.png");
+}
+
+.top-airHockey{
+    background-image: url("images/Air Hockey-topImage.png");
+}
+
+.top-minesweeper{
+    background-image: url("images/Minesweeper-Custom Size-topImage.png");
+}
+
+.top-tankWar{
+    background-image: url("images/Tank War-topImage.png");
+}
+
+.product{
+    display: flex;
+    background-color: wheat;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 180px 80px;
+    flex-wrap: wrap;
+}
+
+.product div{
+    width: 30%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.product img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.product h3{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.product p{
+    margin: 10px 0;
+}
+
+.product a{
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    border-style: dashed;
+    padding: 10px 20px;
+}
+
+footer{
+    background-color: #270505;
+    color: gray;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.gameContent{
+    background-color: wheat;
+    display: flex;
+    padding: 10px;
+}
+
+.gameContent div{
+    width: 50%;
+}
+
+.gameContent img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+.gameContent p{
+    padding-left: 2em;
+}
+
+.gameContent h3{
+    margin: 20px 0 0;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.gameContent h4{
+    margin: 20px 0 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    line-height: 1.6;
+    text-align: justify;
+    padding: 0 0 0 50px;
+}
+
+iframe{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.play{
+    height: 100vh;
+}
